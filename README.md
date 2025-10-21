@@ -3,7 +3,7 @@
 💻 I have basic knowledge on these languages : JAVA,PYTHON,HTML,CSS,C <br>
 ⌨️ I'm also specialized in typing <br>
 🎮 In my free time i play games like : BGMI , GENSHIN IMPACT , COD , FREE FIRE , VOLLEYBALL , UNO , ETC....<br>
-📺 I also make videos on the above mentioned games <br>  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@shadowgamer_7297)
+📺 I also make videos on the above mentioned games <br>  [![YouTube](UCu6OOfjB8y2N36q2XK4kjfQ)](https://youtube.com/@shadowgamer_7297)
 
 
 # 🌐 Socials:
