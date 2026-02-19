@@ -1,20 +1,119 @@
-## Hi , I'm Anish 😊
-🤖 Artificial Intelligence and Data Science , student at AITM , Belagavi<br>
-💻 I have basic knowledge on these languages : JAVA,PYTHON,HTML,CSS,C <br>
-⌨️ I'm also specialized in typing <br>
-🎮 In my free time i play games like : BGMI , GENSHIN IMPACT , COD , FREE FIRE , VOLLEYBALL , UNO , ETC....<br>
-📺 I also make videos on the above mentioned games <br>  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@anish_inamadar?si=jGKEAJwfSUqpNoMF)
+<!-- ================= CYBERPUNK GAMING BANNER ================= -->
 
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=ANISH%20INAMADAR&fontSize=45&fontColor=00ffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20|%20Hackathon%20Enthusiast%20|%20Gaming%20Creator&descAlignY=55&descAlign=50"/>
+</p>
 
-# 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/share/1UdD4F9S8x/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@gamer_112345_hs) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anish-inamadar-858461303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@anish_inamadar?si=jGKEAJwfSUqpNoMF) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:anishinamadar11111@gmail.com) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?style=for-the-badge&logo=riotgames&logoColor=white) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white) ![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=for-the-badge&logo=Itch.io&logoColor=white) ![Battle.net](https://img.shields.io/badge/battle.net-%2300AEFF.svg?style=for-the-badge&logo=battle.net&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# 📊 GitHub Stats:
-
-![](https://nirzak-streak-stats.vercel.app/?user=IKnowU27735300&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=IKnowU27735300&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=Artificial+Intelligence+%26+Data+Science+Student;Hackathon+Competitor+%F0%9F%8F%86;Future+Machine+Learning+Engineer;Gaming+Content+Creator+%F0%9F%8E%AE;Building+Smart+Solutions+with+Code+%F0%9F%92%BB"/>
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=IKnowU27735300&icon=0&color=0)](https://visitcount.itsvg.in)
+
+# 👨‍💻 About Me
+
+🎓 AI & Data Science Student at **AITM, Belagavi**  
+🏆 Participated in 3+ Hackathons | Secured **5th Place**  
+📢 Former **ACM Student Chapter – Marketing Incharge**  
+🤖 Passionate about AI, ML & Data Engineering  
+🎮 Gaming Content Creator on YouTube  
+
+---
+
+# 🏆 Hackathon Achievements
+
+🚀 Participated in Multiple Inter-College Hackathons  
+🥇 Secured **5th Place** in a Competitive Hackathon  
+💡 Built Real-Time Problem Solving Projects  
+👨‍💻 Worked in Team-Based Agile Environments  
+
+> “I don’t just write code. I build solutions under pressure.”
+
+---
+
+# 💼 Career Objective
+
+Aspiring **Machine Learning / Data Engineer** seeking placement opportunities where I can:
+
+✔ Apply AI & Data Science knowledge  
+✔ Contribute to real-world intelligent systems  
+✔ Grow in a performance-driven environment  
+✔ Deliver scalable and efficient solutions  
+
+---
+
+# 💻 Technical Skills
+
+## 👨‍💻 Programming
+![Java](https://img.shields.io/badge/Java-00FFFF?style=for-the-badge&logo=openjdk&logoColor=black)
+![Python](https://img.shields.io/badge/Python-00FFFF?style=for-the-badge&logo=python&logoColor=black)
+![C](https://img.shields.io/badge/C-00FFFF?style=for-the-badge&logo=c&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-00FFFF?style=for-the-badge&logo=html5&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS3-00FFFF?style=for-the-badge&logo=css3&logoColor=black)
+
+---
+
+## 🤖 AI & Data Science
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF00FF?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-FF00FF?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-FF00FF?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-FF00FF?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-FF00FF?style=for-the-badge&logo=numpy&logoColor=white)
+
+---
+
+## 🗄️ Databases
+![MySQL](https://img.shields.io/badge/MySQL-00FFAA?style=for-the-badge&logo=mysql&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-00FFAA?style=for-the-badge&logo=mongodb&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL_Server-00FFAA?style=for-the-badge&logo=microsoftsqlserver&logoColor=black)
+
+---
+
+# 🎮 Gaming Universe
+
+I enjoy playing:
+- BGMI  
+- Genshin Impact  
+- COD  
+- Free Fire  
+- Volleyball  
+- UNO  
+
+🎥 I create gaming videos on YouTube combining strategy + entertainment.
+
+---
+
+# 📊 GitHub Analytics
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=IKnowU27735300&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IKnowU27735300&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+---
+
+# 🔥 Contribution Graph
+
+[![Anish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=IKnowU27735300&theme=tokyo-night)](https://github.com/IKnowU27735300)
+
+---
+
+# 🌐 Connect With Me
+
+<p align="center">
+<a href="https://www.linkedin.com/in/anish-inamadar-858461303">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://youtube.com/@anish_inamadar">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
+<a href="mailto:anishinamadar11111@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-FF00FF?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</p>
+
+---
+
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+</p>
