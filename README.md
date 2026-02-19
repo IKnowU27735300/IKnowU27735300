@@ -13,7 +13,7 @@
 # 👨‍💻 About Me
 
 🎓 AI & Data Science Student at **AITM, Belagavi**  
-🏆 Participated in 3+ Hackathons | Secured **5th Place**  
+🏆 Participated in 3+ Hackathons | Secured **5th Place** , Secured **3th Place** & Secured **2nd Place**    
 📢 Former **ACM Student Chapter – Marketing Incharge**  
 🤖 Passionate about AI, ML & Data Engineering  
 🎮 Gaming Content Creator on YouTube  
