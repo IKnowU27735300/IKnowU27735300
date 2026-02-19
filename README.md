@@ -24,7 +24,7 @@
 # 🏆 Hackathon Achievements
 
 🚀 Participated in Multiple Inter-College Hackathons  
-🥇 Secured **5th Place** in a Competitive Hackathon  
+🥇 Secured **3rd,5th Place & 2nd** in a Competitive Hackathon  
 💡 Built Real-Time Problem Solving Projects  
 👨‍💻 Worked in Team-Based Agile Environments  
 
