@@ -89,8 +89,8 @@ I enjoy playing:
 # 📊 GitHub Analytics
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=IKnowU27735300&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IKnowU27735300&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=IKnowU27735300&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&cache_seconds=1800" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IKnowU27735300&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" height="170"/>
 </p>
 
 ---
