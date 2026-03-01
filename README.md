@@ -99,11 +99,6 @@ I enjoy playing:
   <img src="https://streak-stats.demolab.com?user=IKnowU27735300&theme=tokyonight&hide_border=true"/>
 </p>
 
-<!-- Activity Graph -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IKnowU27735300&theme=tokyo-night&hide_border=true"/>
-</p>>
-
 ---
 
 # 🔥 Contribution Graph
