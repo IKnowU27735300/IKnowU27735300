@@ -48,7 +48,6 @@ Aspiring **Machine Learning / Data Engineer** seeking placement opportunities wh
 ## 👨‍💻 Programming
 ![Java](https://img.shields.io/badge/Java-00FFFF?style=for-the-badge&logo=openjdk&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-00FFFF?style=for-the-badge&logo=python&logoColor=black)
-![C](https://img.shields.io/badge/C-00FFFF?style=for-the-badge&logo=c&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-00FFFF?style=for-the-badge&logo=html5&logoColor=black)
 ![CSS](https://img.shields.io/badge/CSS3-00FFFF?style=for-the-badge&logo=css3&logoColor=black)
 
