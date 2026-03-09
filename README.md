@@ -65,7 +65,6 @@ Aspiring **Machine Learning / Data Engineer** seeking placement opportunities wh
 ## 🗄️ Databases
 ![MySQL](https://img.shields.io/badge/MySQL-00FFAA?style=for-the-badge&logo=mysql&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-00FFAA?style=for-the-badge&logo=mongodb&logoColor=black)
-![SQL Server](https://img.shields.io/badge/SQL_Server-00FFAA?style=for-the-badge&logo=microsoftsqlserver&logoColor=black)
 ![Firebase](https://img.shields.io/badge/Firebase-00FFAA?style=for-the-badge&logo=firebase&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-00FFAA?style=for-the-badge&logo=supabase&logoColor=black)
 
