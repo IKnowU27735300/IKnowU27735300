@@ -96,12 +96,6 @@ I enjoy playing:
 
 ---
 
-# 🔥 Contribution Graph
-
-[![Anish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=IKnowU27735300&theme=tokyo-night)](https://github.com/IKnowU27735300)
-
----
-
 # 🌐 Connect With Me
 
 <p align="center">
