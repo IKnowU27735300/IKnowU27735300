@@ -53,7 +53,6 @@ Aspiring **Machine Learning / Data Engineer** seeking placement opportunities wh
 ---
 
 ## 🤖 AI & Data Science
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF00FF?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-FF00FF?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-FF00FF?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-FF00FF?style=for-the-badge&logo=pandas&logoColor=white)
@@ -65,7 +64,6 @@ Aspiring **Machine Learning / Data Engineer** seeking placement opportunities wh
 ![MySQL](https://img.shields.io/badge/MySQL-00FFAA?style=for-the-badge&logo=mysql&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-00FFAA?style=for-the-badge&logo=mongodb&logoColor=black)
 ![Firebase](https://img.shields.io/badge/Firebase-00FFAA?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-00FFAA?style=for-the-badge&logo=supabase&logoColor=black)
 
 ---
 
