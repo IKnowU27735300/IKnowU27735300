@@ -20,7 +20,7 @@
   Name       : Anish Inamadar
   Field      : Artificial Intelligence & Data Science
   College    : AITM, Belagavi (Undergraduate Student)
-  Location   : Belagavi, Karnataka, India 📍
+  Location   : Vijayapura, Karnataka, India 📍
   Role       : Aspiring Machine Learning & Data Engineer
   Leadership : Former GS of AI&DS @ AITM | ACM Student Chapter Incharge
   Motto      : "I don't just write code — I build smart solutions under pressure."
