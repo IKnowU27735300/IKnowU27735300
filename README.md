@@ -134,13 +134,23 @@
 ## 📊 GitHub Activity & Analytics
 
 <p align="center">
-  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="175" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="175" alt="Top Languages"/>
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" style="max-width: 100%;" />
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/streak-stats.svg" alt="GitHub Streak"/>
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/tokyonight/3-stats.svg" height="175" alt="GitHub Stats" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="175" alt="Top Languages by Repo" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="175" alt="Top Languages by Commit" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/tokyonight/4-productive-time.svg" height="175" alt="Productive Time" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/streak-stats.svg" alt="GitHub Streak" style="max-width: 100%;" />
 </p>
 
 ---
