@@ -1,0 +1,46 @@
+name: Update GitHub Profile Analytics
+
+on:
+  schedule:
+    # Run automatically every 3 hours to keep stats fresh
+    - cron: "0 */3 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual 1-click trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-cards:
+    runs-on: ubuntu-latest
+    name: Generate and Update Profile Analytics
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          THEME: tokyonight
+          UTC_OFFSET: 5.5
+
+      - name: Update Streak Stats SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase || true
+          mkdir -p profile-summary-card-output
+          curl -s -f "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=radical&background=0d1117&border=00F7FF&ring=FF007F&fire=00FF9D&currStreakLabel=00F7FF&currStreakNum=FF007F&sideNums=00F7FF&sideLabels=E0E6ED&dates=00FF9D" -o profile-summary-card-output/streak-stats.svg || true
+          git add profile-summary-card-output/streak-stats.svg
+          git commit -m "chore: update streak stats [skip ci]" || echo "No changes to streak stats"
+          git push origin main || echo "Already up to date"
+
+      - name: Purge GitHub Camo Cache
+        uses: kevincobain2000/action-camo-purge@v1
+        continue-on-error: true

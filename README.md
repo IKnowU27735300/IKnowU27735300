@@ -134,13 +134,13 @@
 ## 📊 GitHub Activity & Analytics
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IKnowU27735300&theme=tokyonight" height="175" alt="GitHub Stats"/>
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="175" alt="GitHub Stats"/>
   &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IKnowU27735300&theme=tokyonight" height="175" alt="Top Languages"/>
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="175" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=IKnowU27735300&theme=radical&background=0d1117&border=00F7FF&ring=FF007F&fire=00FF9D&currStreakLabel=00F7FF&currStreakNum=FF007F&sideNums=00F7FF&sideLabels=E0E6ED&dates=00FF9D" alt="GitHub Streak"/>
+  <img src="./profile-summary-card-output/streak-stats.svg" alt="GitHub Streak"/>
 </p>
 
 ---
