@@ -58,7 +58,7 @@
 ## ⚡ Skills & Technologies
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/skills-marquee.svg" alt="Developer Skills Matrix & Interactive Marquee" width="100%" />
+  <img src="./skills-marquee.svg" alt="Developer Skills Matrix & Interactive Marquee" width="100%" />
 </p>
 <p align="center">
   <sub style="color: #8b949e;">⚡ <b>Cyan Neon Glow:</b> Core Specializations & Active Stack &nbsp;•&nbsp; <b>Dimmed:</b> Broader Tech & Dev Ecosystem</sub>
