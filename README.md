@@ -70,7 +70,7 @@
 | **🤖 LLMs & Agentic AI Systems** | `Gemini` `ChatGPT` `Google Antigravity` `NotebookLM` `Qwen` `Z.ai` `Codex` `Flow` |
 | **⚡ Next-Gen AI IDEs & Tools** | `Cursor` `Windsurf` `Cline` `Trae` `LM Studio` `OpenCode` `VS Code` |
 | **💻 Programming Languages** | `Python` `Java` `HTML5` `CSS3` `JavaScript` |
-| **🗄️ Databases & Storage** | `MySQL` `MongoDB` `Firebase Realtime DB` |
+| **🗄️ Databases & Storage** | `MySQL` `MongoDB` `Firebase Realtime DB` `Supabase` `PostgreSQL` |
 | **🛠️ Developer & DevOps Tools** | `Git` `GitHub` `Docker` `Agile Workflow` |
 
 ---

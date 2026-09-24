@@ -8,25 +8,25 @@ ET.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
 # User core skills & primary AI stack (Highlighted with Cyan Glow & 100% Opacity)
 USER_SKILLS = {
     # Core Dev & ML
-    'python', 'java', 'pytorch', 'sklearn', 'pandas', 'numpy', 'mysql', 'mongodb', 'firebase', 'html', 'css', 'js', 'git', 'github', 'vscode',
+    'python', 'java', 'pytorch', 'sklearn', 'pandas', 'numpy', 'mysql', 'mongodb', 'firebase', 'supabase', 'html', 'css', 'js', 'git', 'github', 'vscode',
     # Primary AI & Agentic Stack
     'chatgpt', 'gemini', 'antigravity', 'cursor', 'windsurf', 'cline', 'notebooklm', 'lmstudio'
 }
 
-# Row 1 (22 items, scrolls LEFT)
+# Row 1 (23 items, scrolls LEFT)
 ROW1_KEYS = [
     'python', 'chatgpt', 'react', 'gemini', 'pytorch', 'cursor', 
     'ts', 'antigravity', 'pandas', 'windsurf', 'docker', 'cline', 
-    'java', 'trae', 'mysql', 'qwen', 'vscode', 'lmstudio', 
+    'java', 'trae', 'mysql', 'qwen', 'supabase', 'vscode', 'lmstudio', 
     'fastapi', 'codex', 'flutter', 'tensorflow'
 ]
 
-# Row 2 (22 items, scrolls RIGHT)
+# Row 2 (23 items, scrolls RIGHT)
 ROW2_KEYS = [
     'js', 'notebooklm', 'nodejs', 'firebase', 'sklearn', 'z_ai', 
     'numpy', 'flow', 'mongodb', 'opencode', 'html', 'css', 
     'cpp', 'git', 'github', 'aws', 'gcp', 'postgres', 
-    'tailwind', 'redis', 'kubernetes', 'linux'
+    'tailwind', 'redis', 'kubernetes', 'sqlite', 'linux'
 ]
 
 all_keys = list(dict.fromkeys(ROW1_KEYS + ROW2_KEYS))
@@ -273,7 +273,6 @@ if remaining_needed:
     raw = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
     root = ET.fromstring(raw)
     
-    # Extract all inner 256x256 svgs
     extracted = [elem for elem in root.iter('{http://www.w3.org/2000/svg}svg') if elem != root]
     for k, elem in zip(remaining_needed, extracted):
         icons_xml[k] = elem
@@ -285,10 +284,10 @@ print(f"\nAll {len(icons_xml)} / {len(all_keys)} icons ready.")
 ICON_BOX_SIZE = 58
 GAP = 14
 ITEM_STEP = ICON_BOX_SIZE + GAP # 72px
-SET1_COUNT = len(ROW1_KEYS) # 22
-SET2_COUNT = len(ROW2_KEYS) # 22
-SET1_WIDTH = SET1_COUNT * ITEM_STEP # 1584px
-SET2_WIDTH = SET2_COUNT * ITEM_STEP # 1584px
+SET1_COUNT = len(ROW1_KEYS) # 23
+SET2_COUNT = len(ROW2_KEYS) # 23
+SET1_WIDTH = SET1_COUNT * ITEM_STEP # 1656px
+SET2_WIDTH = SET2_COUNT * ITEM_STEP # 1656px
 
 VIEW_WIDTH = 900
 VIEW_HEIGHT = 168
@@ -446,4 +445,4 @@ with open("skills-marquee.svg", "w", encoding="utf-8") as f:
 
 # Validate XML strictly
 tree = ET.parse("skills-marquee.svg")
-print(f"✅ Verified: skills-marquee.svg is 100% VALID XML with all {len(all_keys)} tech & AI skills!")
+print(f"✅ Verified: skills-marquee.svg is 100% VALID XML with Supabase & MySQL included ({len(all_keys)} items)!")
