@@ -66,10 +66,12 @@
 
 | Category | Technologies & Tools |
 | :--- | :--- |
-| **🧠 Artificial Intelligence & ML** | `PyTorch` `Scikit-Learn` `Pandas` `NumPy` `Data Science` |
+| **🧠 Artificial Intelligence & ML** | `PyTorch` `Scikit-Learn` `Pandas` `NumPy` `Data Science` `TensorFlow` |
+| **🤖 LLMs & Agentic AI Systems** | `Gemini` `ChatGPT` `Google Antigravity` `NotebookLM` `Qwen` `Z.ai` `Codex` `Flow` |
+| **⚡ Next-Gen AI IDEs & Tools** | `Cursor` `Windsurf` `Cline` `Trae` `LM Studio` `OpenCode` `VS Code` |
 | **💻 Programming Languages** | `Python` `Java` `HTML5` `CSS3` `JavaScript` |
 | **🗄️ Databases & Storage** | `MySQL` `MongoDB` `Firebase Realtime DB` |
-| **🛠️ Developer Tools** | `Git` `GitHub` `VS Code` `Agile Workflow` |
+| **🛠️ Developer & DevOps Tools** | `Git` `GitHub` `Docker` `Agile Workflow` |
 
 ---
 
