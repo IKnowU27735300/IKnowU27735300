@@ -5,7 +5,7 @@ import re
 ET.register_namespace('', 'http://www.w3.org/2000/svg')
 ET.register_namespace('xlink', 'http://www.w3.org/1999/xlink')
 
-# User core skills & primary AI stack (Highlighted with Cyan Glow & 100% Opacity)
+# User core skills & primary AI stack (Highlighted with Cyan Neon Glass Glow)
 USER_SKILLS = {
     # Core Dev & ML
     'python', 'java', 'pytorch', 'sklearn', 'pandas', 'numpy', 'mysql', 'mongodb', 'firebase', 'supabase', 'html', 'css', 'js', 'git', 'github', 'vscode',
@@ -304,18 +304,26 @@ def render_row_svg_elements(keys, row_id):
         item_g = ET.SubElement(row_g, '{http://www.w3.org/2000/svg}g', {'transform': f'translate({x}, 0)'})
         
         if not is_user:
-            item_g.attrib['opacity'] = '0.30'
+            item_g.attrib['opacity'] = '0.28'
             item_g.attrib['filter'] = 'url(#dim-grayscale)'
+            # Pure Frosted Glass Card for Dimmed Items
             ET.SubElement(item_g, '{http://www.w3.org/2000/svg}rect', {
                 'x': '0', 'y': '0',
                 'width': str(ICON_BOX_SIZE), 'height': str(ICON_BOX_SIZE),
-                'rx': '14', 'fill': '#0b0f17', 'stroke': '#21262d', 'stroke-width': '1'
+                'rx': '14', 
+                'fill': 'rgba(255, 255, 255, 0.03)', 
+                'stroke': 'rgba(255, 255, 255, 0.10)', 
+                'stroke-width': '1'
             })
         else:
+            # Translucent Cyan Glass Card for Highlighted Items
             ET.SubElement(item_g, '{http://www.w3.org/2000/svg}rect', {
                 'x': '0', 'y': '0',
                 'width': str(ICON_BOX_SIZE), 'height': str(ICON_BOX_SIZE),
-                'rx': '14', 'fill': '#151b28', 'stroke': '#00F7FF', 'stroke-width': '2',
+                'rx': '14', 
+                'fill': 'rgba(0, 247, 255, 0.09)', 
+                'stroke': '#00F7FF', 
+                'stroke-width': '1.8',
                 'filter': 'url(#cyan-glow)'
             })
 
@@ -337,14 +345,23 @@ def render_row_svg_elements(keys, row_id):
                 icon_wrapper.append(child)
                 
         if is_user:
+            # Frosted glass specular top edge shine
+            ET.SubElement(item_g, '{http://www.w3.org/2000/svg}path', {
+                'd': f'M4 14C4 8.47715 8.47715 4 14 4H{ICON_BOX_SIZE-14}C{ICON_BOX_SIZE-8.47715} 4 {ICON_BOX_SIZE-4} 8.47715 {ICON_BOX_SIZE-4} 14',
+                'stroke': 'rgba(255, 255, 255, 0.4)',
+                'stroke-width': '1.2',
+                'fill': 'none'
+            })
+            # Crisp overlay border
             ET.SubElement(item_g, '{http://www.w3.org/2000/svg}rect', {
                 'x': '0', 'y': '0',
                 'width': str(ICON_BOX_SIZE), 'height': str(ICON_BOX_SIZE),
-                'rx': '14', 'fill': 'none', 'stroke': '#00F7FF', 'stroke-width': '1.6', 'opacity': '0.9'
+                'rx': '14', 'fill': 'none', 'stroke': '#00F7FF', 'stroke-width': '1.5', 'opacity': '0.9'
             })
+            # Active status badge dot
             ET.SubElement(item_g, '{http://www.w3.org/2000/svg}circle', {
                 'cx': str(ICON_BOX_SIZE - 7), 'cy': '7', 'r': '3.5',
-                'fill': '#00FF9D', 'stroke': '#0d1117', 'stroke-width': '1'
+                'fill': '#00FF9D', 'stroke': 'rgba(0, 247, 255, 0.8)', 'stroke-width': '1'
             })
 
     return row_g
@@ -374,20 +391,31 @@ ET.SubElement(filter_dim, '{http://www.w3.org/2000/svg}feColorMatrix', {
     'values': '0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.45 0'
 })
 
-# Edge fade gradients
+# Glassmorphism Backdrop Gradient (Semi-transparent, non-black frosted glass)
+grad_glass_bg = ET.SubElement(defs, '{http://www.w3.org/2000/svg}linearGradient', {
+    'id': 'glass-backdrop', 'x1': '0%', 'y1': '0%', 'x2': '100%', 'y2': '100%'
+})
+ET.SubElement(grad_glass_bg, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#00F7FF', 'stop-opacity': '0.06'})
+ET.SubElement(grad_glass_bg, '{http://www.w3.org/2000/svg}stop', {'offset': '50%', 'stop-color': '#9B72CB', 'stop-opacity': '0.04'})
+ET.SubElement(grad_glass_bg, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#00FF9D', 'stop-opacity': '0.05'})
+
+# Glass Border Gradient with Specular Light Angle
+grad_glass_border = ET.SubElement(defs, '{http://www.w3.org/2000/svg}linearGradient', {
+    'id': 'glass-border', 'x1': '0%', 'y1': '0%', 'x2': '100%', 'y2': '100%'
+})
+ET.SubElement(grad_glass_border, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#FFFFFF', 'stop-opacity': '0.40'})
+ET.SubElement(grad_glass_border, '{http://www.w3.org/2000/svg}stop', {'offset': '30%', 'stop-color': '#00F7FF', 'stop-opacity': '0.35'})
+ET.SubElement(grad_glass_border, '{http://www.w3.org/2000/svg}stop', {'offset': '70%', 'stop-color': '#FF007F', 'stop-opacity': '0.25'})
+ET.SubElement(grad_glass_border, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#FFFFFF', 'stop-opacity': '0.15'})
+
+# Subtle edge fade (Alpha fade rather than black block)
 grad_left = ET.SubElement(defs, '{http://www.w3.org/2000/svg}linearGradient', {'id': 'edge-fade-left', 'x1': '0%', 'y1': '0%', 'x2': '100%', 'y2': '0%'})
-ET.SubElement(grad_left, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#070a12', 'stop-opacity': '1'})
-ET.SubElement(grad_left, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#070a12', 'stop-opacity': '0'})
+ET.SubElement(grad_left, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#050811', 'stop-opacity': '0.75'})
+ET.SubElement(grad_left, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#050811', 'stop-opacity': '0'})
 
 grad_right = ET.SubElement(defs, '{http://www.w3.org/2000/svg}linearGradient', {'id': 'edge-fade-right', 'x1': '0%', 'y1': '0%', 'x2': '100%', 'y2': '0%'})
-ET.SubElement(grad_right, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#070a12', 'stop-opacity': '0'})
-ET.SubElement(grad_right, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#070a12', 'stop-opacity': '1'})
-
-# Card border gradient
-grad_border = ET.SubElement(defs, '{http://www.w3.org/2000/svg}linearGradient', {'id': 'card-border-grad', 'x1': '0%', 'y1': '0%', 'x2': '100%', 'y2': '100%'})
-ET.SubElement(grad_border, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#00F7FF', 'stop-opacity': '0.6'})
-ET.SubElement(grad_border, '{http://www.w3.org/2000/svg}stop', {'offset': '50%', 'stop-color': '#FF007F', 'stop-opacity': '0.3'})
-ET.SubElement(grad_border, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#00FF9D', 'stop-opacity': '0.5'})
+ET.SubElement(grad_right, '{http://www.w3.org/2000/svg}stop', {'offset': '0%', 'stop-color': '#050811', 'stop-opacity': '0'})
+ET.SubElement(grad_right, '{http://www.w3.org/2000/svg}stop', {'offset': '100%', 'stop-color': '#050811', 'stop-opacity': '0.75'})
 
 # CSS Style for Animation
 style = ET.SubElement(defs, '{http://www.w3.org/2000/svg}style')
@@ -411,10 +439,23 @@ style.text = f'''
   }}
 '''
 
-# Base container rect
+# Pure Glassmorphic Container
+# 1. Translucent Tint
 ET.SubElement(root_svg, '{http://www.w3.org/2000/svg}rect', {
     'width': str(VIEW_WIDTH), 'height': str(VIEW_HEIGHT),
-    'rx': '14', 'fill': '#070a12', 'stroke': 'url(#card-border-grad)', 'stroke-width': '1.5'
+    'rx': '16', 'fill': 'url(#glass-backdrop)'
+})
+
+# 2. Outer Glass Stroke
+ET.SubElement(root_svg, '{http://www.w3.org/2000/svg}rect', {
+    'width': str(VIEW_WIDTH), 'height': str(VIEW_HEIGHT),
+    'rx': '16', 'fill': 'none', 'stroke': 'url(#glass-border)', 'stroke-width': '1.5'
+})
+
+# 3. Specular Top Glass Sheen Light Reflection
+ET.SubElement(root_svg, '{http://www.w3.org/2000/svg}line', {
+    'x1': '20', 'y1': '1.5', 'x2': str(VIEW_WIDTH - 20), 'y2': '1.5',
+    'stroke': 'rgba(255, 255, 255, 0.45)', 'stroke-width': '1.2', 'stroke-linecap': 'round'
 })
 
 # Rows Container
@@ -428,14 +469,14 @@ row1_wrapper.append(render_row_svg_elements(ROW1_KEYS, 1))
 row2_wrapper = ET.SubElement(main_g, '{http://www.w3.org/2000/svg}g', {'transform': 'translate(0, 80)'})
 row2_wrapper.append(render_row_svg_elements(ROW2_KEYS, 2))
 
-# Edge Fade overlays
+# Smooth Alpha Edge Vignettes
 ET.SubElement(root_svg, '{http://www.w3.org/2000/svg}rect', {
-    'x': '0', 'y': '0', 'width': '85', 'height': str(VIEW_HEIGHT),
-    'rx': '14', 'fill': 'url(#edge-fade-left)', 'pointer-events': 'none'
+    'x': '0', 'y': '0', 'width': '80', 'height': str(VIEW_HEIGHT),
+    'rx': '16', 'fill': 'url(#edge-fade-left)', 'pointer-events': 'none'
 })
 ET.SubElement(root_svg, '{http://www.w3.org/2000/svg}rect', {
-    'x': str(VIEW_WIDTH - 85), 'y': '0', 'width': '85', 'height': str(VIEW_HEIGHT),
-    'rx': '14', 'fill': 'url(#edge-fade-right)', 'pointer-events': 'none'
+    'x': str(VIEW_WIDTH - 80), 'y': '0', 'width': '80', 'height': str(VIEW_HEIGHT),
+    'rx': '16', 'fill': 'url(#edge-fade-right)', 'pointer-events': 'none'
 })
 
 # Output XML
@@ -445,4 +486,4 @@ with open("skills-marquee.svg", "w", encoding="utf-8") as f:
 
 # Validate XML strictly
 tree = ET.parse("skills-marquee.svg")
-print(f"✅ Verified: skills-marquee.svg is 100% VALID XML with Supabase & MySQL included ({len(all_keys)} items)!")
+print(f"✅ Verified: Pure Glassmorphic skills-marquee.svg generated with all {len(all_keys)} skills!")
