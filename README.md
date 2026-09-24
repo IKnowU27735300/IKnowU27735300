@@ -58,7 +58,10 @@
 ## ⚡ Skills & Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,pytorch,sklearn,pandas,numpy,mysql,mongodb,firebase,html,css,git,github,vscode&perline=7&theme=dark" />
+  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/skills-marquee.svg" alt="Developer Skills Matrix & Interactive Marquee" width="100%" />
+</p>
+<p align="center">
+  <sub style="color: #8b949e;">⚡ <b>Cyan Neon Glow:</b> Core Specializations & Active Stack &nbsp;•&nbsp; <b>Dimmed:</b> Broader Tech & Dev Ecosystem</sub>
 </p>
 
 | Category | Technologies & Tools |
