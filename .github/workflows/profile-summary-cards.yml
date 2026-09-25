@@ -40,16 +40,22 @@ jobs:
           # Fetch with retries and timeout into a temporary file
           curl --retry 3 --retry-delay 2 --retry-all-errors --max-time 30 -sSfL "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=radical&background=0d1117&border=00F7FF&ring=FF007F&fire=00FF9D&currStreakLabel=00F7FF&currStreakNum=FF007F&sideNums=00F7FF&sideLabels=E0E6ED&dates=00FF9D" -o profile-summary-card-output/streak-stats.svg.tmp || true
           
+          # Sanitize 0-profile-details.svg header to remove username and show full name
+          if [ -f "profile-summary-card-output/tokyonight/0-profile-details.svg" ]; then
+            sed -i 's/>IKnowU27735300 (ANIS…)</>ANISH INAMADAR</g' profile-summary-card-output/tokyonight/0-profile-details.svg || true
+            sed -i 's/>IKnowU27735300 (ANISH INAMADAR)</>ANISH INAMADAR</g' profile-summary-card-output/tokyonight/0-profile-details.svg || true
+            sed -i 's/>${{ github.repository_owner }} ([^)]*)</>ANISH INAMADAR</g' profile-summary-card-output/tokyonight/0-profile-details.svg || true
+            git add profile-summary-card-output/tokyonight/0-profile-details.svg || true
+          fi
+
           # Only stage and commit if the temporary file exists and contains valid SVG data
           if [ -s "profile-summary-card-output/streak-stats.svg.tmp" ] && grep -q "<svg" "profile-summary-card-output/streak-stats.svg.tmp"; then
             mv profile-summary-card-output/streak-stats.svg.tmp profile-summary-card-output/streak-stats.svg
             git add profile-summary-card-output/streak-stats.svg
-            git commit -m "chore: update streak stats [skip ci]" || echo "No changes to streak stats"
-            git push origin main || echo "Already up to date"
-          else
-            echo "Streak stats download failed or returned invalid response; keeping existing SVG."
-            rm -f profile-summary-card-output/streak-stats.svg.tmp
           fi
+          git commit -m "chore: update profile analytics [skip ci]" || echo "No changes to profile analytics"
+          git push origin main || echo "Already up to date"
+          rm -f profile-summary-card-output/streak-stats.svg.tmp
 
       - name: Purge GitHub Camo Cache
         uses: kevincobain2000/action-camo-purge@v1
