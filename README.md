@@ -154,9 +154,6 @@
   <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/tokyonight/4-productive-time.svg" height="175" alt="Productive Time" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/IKnowU27735300/IKnowU27735300/main/profile-summary-card-output/streak-stats.svg" alt="GitHub Streak" style="max-width: 100%;" />
-</p>
 
 ---
 
